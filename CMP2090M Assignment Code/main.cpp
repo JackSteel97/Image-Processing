@@ -12,16 +12,22 @@
 #include "Utils.h"
 using namespace std;
 
+/// <summary>
+/// reads images into a vector
+/// </summary>
+/// <param name="set">the numbered image set to read into memory</param>
+/// <returns>Vector containing the images from the given set</returns>
 vector<Image> readImagesForStacking(const unsigned int &set) {
-	//read all images into vector	
+	//read all images into vector
 	cout << "\n\tReading Images\n";
 	cout << "************************************\n";
 	Timer timer;
 	timer.start();
 	vector<Image> images;
-	switch (set)
-	{
+	//switch on the given set
+	switch (set) {
 	case 1:
+		//set 1
 		images = {
 			Image("Images/ImageStacker_set1/IMG_1.ppm"),
 			Image("Images/ImageStacker_set1/IMG_2.ppm"),
@@ -39,6 +45,7 @@ vector<Image> readImagesForStacking(const unsigned int &set) {
 		};
 		break;
 	case 2:
+		//set 2
 		images = {
 			Image("Images/ImageStacker_set2/IMG_1.ppm"),
 			Image("Images/ImageStacker_set2/IMG_2.ppm"),
@@ -53,6 +60,7 @@ vector<Image> readImagesForStacking(const unsigned int &set) {
 		};
 		break;
 	case 3:
+		//set 3
 		images = {
 			Image("Images/ImageStacker_set3/IMG_1.ppm"),
 			Image("Images/ImageStacker_set3/IMG_2.ppm"),
@@ -67,6 +75,7 @@ vector<Image> readImagesForStacking(const unsigned int &set) {
 		};
 		break;
 	case 4:
+		//set 4
 		images = {
 			Image("Images/ImageStacker_set4/IMG_1.ppm"),
 			Image("Images/ImageStacker_set4/IMG_2.ppm"),
@@ -81,106 +90,148 @@ vector<Image> readImagesForStacking(const unsigned int &set) {
 		};
 		break;
 	default:
+		cout << "\nInvalid Image Set" << endl;
 		break;
-	}	
+	}
 	cout << "************************************\n";
 
 	timer.stop();
-	
+
 	cout << "Finished in " << timer.getSeconds() << " seconds\n";
 	return images;
 }
 
-void ImageStacker(const unsigned int method, const unsigned int &imageSet) {
+/// <summary>
+/// Runs the image stacker
+/// </summary>
+/// <param name="method">numbered stacking method to use</param>
+/// <param name="imageSet">numbered image set to stack</param>
+void ImageStacker(const unsigned int &method, const unsigned int &imageSet) {
+	//read images into memory
 	vector<Image> images = readImagesForStacking(imageSet);
 	StackedImage output;
 	Timer timer;
 	timer.start();
 	string fileName = "default.ppm";
-	switch (method){
+	//switch on the stacking method
+	switch (method) {
 	case 1:
+		//mean blending (optimised)
 		cout << "\nMean Blending Images...\n";
 		fileName = "MeanOutput.ppm";
 		output = Stacker::MeanBlendParallel(images);
 		break;
 	case 2:
+		//median blending (optimised)
 		cout << "\nMedian Blending Images...\n";
 		fileName = "MedianOutput.ppm";
 		output = Stacker::MedianBlendParallel(images);
 		break;
 	case 3:
+		//sigma clipped mean blending (optimised)
 		cout << "\nSigma Clipped Mean Blending Images...\n";
 		fileName = "SigmaClippedMeanOutput.ppm";
 		output = Stacker::SigmaClippedMeanBlendParallel(images, 1);
 		break;
 	case 4:
+		//mean blending
 		cout << "\nMean Blending Images...\n";
-		fileName = "MeanOutput.ppm";
+		fileName = "MeanOutput2.ppm";
 		output = Stacker::MeanBlend(images);
 		break;
 	case 5:
+		//median blending
 		cout << "\nMedian Blending Images...\n";
-		fileName = "MedianOutput.ppm";
+		fileName = "MedianOutput2.ppm";
 		output = Stacker::MedianBlend(images);
 		break;
 	case 6:
+		//sigma clipped mean blending
 		cout << "\nSigma Clipped Mean Blending Images...\n";
-		fileName = "SigmaClippedMeanOutput.ppm";
+		fileName = "SigmaClippedMeanOutput2.ppm";
 		output = Stacker::SigmaClippedMeanBlend(images, 1);
 		break;
 	default:
 		cout << "Invalid blend method\n";
 		return;
 	}
-	output.logDetails();
+
 	timer.stop();
 	cout << "Finished Blending in " << timer.getSeconds() << " seconds\n";
+	
+	//write to file
 	string filePath = "Images/ImageStacker_set" + to_string(imageSet) + "/" + fileName;
 	output.writePPM(filePath.c_str());
+
+	//log output
+	output.logDetails();
+
+	//delete pixel memory
 	output.freeMemory();
 	return;
 }
 
-void ImageScaler(int method, double scale, bool scaleROI = false, int roiLeft = 0, int roiTop = 0, int roiWidth = 0, int roiHeight = 0) {
+/// <summary>
+/// run the image scaler
+/// </summary>
+/// <param name="method">numbered scaling method to use</param>
+/// <param name="scale">scale factor</param>
+/// <param name="scaleROI">scale a ROI flag</param>
+/// <param name="roiLeft">ROI top left x coordinate</param>
+/// <param name="roiTop">ROI top left y coordinate</param>
+/// <param name="roiWidth">width of ROI</param>
+/// <param name="roiHeight">height of ROI</param>
+void ImageScaler(const unsigned int &method, const double &scale, const bool &scaleROI = false, const unsigned int &roiLeft = 0, const unsigned int &roiTop = 0, const unsigned int &roiWidth = 0, const unsigned int &roiHeight = 0) {
 	Image img;
 	string fileName = "default.ppm";
 	cout << "\n";
 	Timer timer;
 	timer.start();
+
+	//are we using a ROI?
 	if (scaleROI) {
+		//yes get the region of interest first
 		img = Scaler::ExtractRegionOfInterest(Image("Images/Zoom/zImg_1.ppm"), roiLeft, roiTop, roiWidth, roiHeight);
-	}
-	else {
+	} else {
+		//no, load the whole image
 		img = Image("Images/Zoom/zImg_1.ppm");
 	}
+
 	ScaledImage output;
+	//switch on the scaling method
 	switch (method) {
 	case 1:
+		//nearest neighbour (optimised)
 		cout << "\nNearest Neighbour Scaling...\n";
 		fileName = "NearestNeighbourScaled.ppm";
 		output = Scaler::NearestNeighbourParallel(img, scale);
 		break;
 	case 2:
+		//bilinear (optimised)
 		cout << "\nBilinear Scaling...\n";
 		fileName = "BilinearScaled.ppm";
 		output = Scaler::BilinearParallel(img, scale);
 		break;
 	case 3:
+		//bicubic (optimised)
 		cout << "\nBicubic Scaling...\n";
 		fileName = "BicubicScaled.ppm";
 		output = Scaler::BiCubicParallel(img, scale);
 		break;
 	case 4:
+		//nearest neighbour
 		cout << "\nNearest Neighbour Scaling...\n";
 		fileName = "NearestNeighbourScaled.ppm";
 		output = Scaler::NearestNeighbour(img, scale);
 		break;
 	case 5:
+		//bilinear
 		cout << "\nBilinear Scaling...\n";
 		fileName = "BilinearScaled.ppm";
 		output = Scaler::Bilinear(img, scale);
 		break;
 	case 6:
+		//bicubic
 		cout << "\nBicubic Scaling...\n";
 		fileName = "BicubicScaled.ppm";
 		output = Scaler::BiCubic(img, scale);
@@ -190,44 +241,63 @@ void ImageScaler(int method, double scale, bool scaleROI = false, int roiLeft = 
 		return;
 	}
 	timer.stop();
-	
+
 	cout << "Finished Scaling in " << timer.getSeconds() << " seconds\n";
 
-	string filePath = "Images/Zoom/" + fileName;
-	output.logDetails();
+	//write to file
+	string filePath = "Images/Zoom/" + fileName;	
 	output.writePPM(filePath.c_str());
+
+	//log details
+	output.logDetails();
+	
+	//delete pixel memory
 	img.freeMemory();
 	output.freeMemory();
 	return;
 }
 
+/// <summary>
+/// Display the image stacker menu
+/// </summary>
 void showImageStackerMenu() {
 	clearConsole();
 	cout << "IMAGE STACKER\n\n";
 	cout << "\t1. Mean Blending\n\t2. Median Blending\n\t3. Sigma Clipped Mean Blending\n";
 	cout << "Choose Blending Method: ";
 	int choice = getUserInputInteger();
+
 	cout << "\n1. Image set 1\n2. Image set 2\n3. Image set 3\n4. Image set 4\n";
 	cout << "Choose Image Set: ";
 	int setChoice = getUserInputInteger();
+
+	//run image stacker with user choices
 	ImageStacker(choice, setChoice);
 }
 
+/// <summary>
+/// Display the image scaler menu
+/// </summary>
 void showImageScalerMenu() {
 	clearConsole();
 	cout << "IMAGE SCALER\n\n";
 	cout << "\t1. Nearest Neighbour\n\t2. Bilinear\n\t3. Bicubic\n";
 	cout << "Choose Scaling Method: ";
 	int choice = getUserInputInteger();
+
 	cout << "\nEnter a scale factor: ";
 	double scaleFactor = getUserInputDouble();
+
 	cout << "\nScale a region of interest?\n1. Yes\n2. No, scale the whole image\n";
 	cout << "Choice: ";
 	int roiChoice = getUserInputInteger();
+
 	int left, top, width, height;
+	//switch on the user's choice to use a ROI
 	switch (roiChoice)
 	{
 	case 1:
+		//use ROI
 		cout << "Enter X value for top left of ROI: ";
 		left = getUserInputInteger();
 		cout << "Enter Y value for top left of ROI: ";
@@ -236,17 +306,24 @@ void showImageScalerMenu() {
 		width = getUserInputInteger();
 		cout << "Enter height of ROI: ";
 		height = getUserInputInteger();
+		//run scaler with user choices
 		ImageScaler(choice, scaleFactor, true, left, top, width, height);
 		break;
 	case 2:
+		//don't use ROI, run scaler on whole image with user's scale factor
 		ImageScaler(choice, scaleFactor);
 		break;
 	default:
+		cout << "\nInvalid ROI Choice!" << endl;
 		break;
 	}
 }
 
+/// <summary>
+/// Run the scaler benchmark
+/// </summary>
 void benchmarkScaler() {
+	//output timings to log file
 	ofstream logFile;
 	logFile.open("Benchmark.txt", ios::app);
 	Timer timer;
@@ -254,11 +331,12 @@ void benchmarkScaler() {
 
 	string startTime(ctime(&benchStart));
 	logFile << "Starting Scaler Benchmark: " << startTime;
-
+	
+	//run all algorithms at 2x scale factor
 	logFile << "\nScale 2x:";
 
 	timer.start();
-	ImageScaler(4,2);
+	ImageScaler(4, 2);
 	timer.stop();
 	logFile << "\n\tNearest Neighbour: " << timer.getSeconds();
 
@@ -266,7 +344,6 @@ void benchmarkScaler() {
 	ImageScaler(1, 2);
 	timer.stop();
 	logFile << "\n\tNearest Neighbour Parallel: " << timer.getSeconds();
-
 
 	timer.start();
 	ImageScaler(5, 2);
@@ -288,6 +365,7 @@ void benchmarkScaler() {
 	timer.stop();
 	logFile << "\n\tBicubic Parallel: " << timer.getSeconds();
 
+	//run all algorithms at 4x scale factor
 	logFile << "\nScale 4x:";
 
 	timer.start();
@@ -299,7 +377,6 @@ void benchmarkScaler() {
 	ImageScaler(1, 4);
 	timer.stop();
 	logFile << "\n\tNearest Neighbour Parallel: " << timer.getSeconds();
-
 
 	timer.start();
 	ImageScaler(5, 4);
@@ -321,6 +398,7 @@ void benchmarkScaler() {
 	timer.stop();
 	logFile << "\n\tBicubic Parallel: " << timer.getSeconds();
 
+	//run all algorithms at 10x scale factor
 	logFile << "\nScale 10x:";
 
 	timer.start();
@@ -332,7 +410,6 @@ void benchmarkScaler() {
 	ImageScaler(1, 10);
 	timer.stop();
 	logFile << "\n\tNearest Neighbour Parallel: " << timer.getSeconds();
-
 
 	timer.start();
 	ImageScaler(5, 10);
@@ -358,7 +435,11 @@ void benchmarkScaler() {
 	logFile.close();
 }
 
+/// <summary>
+/// Run image stacker benchmark
+/// </summary>
 void benchmarkStacker() {
+	//output timings to log file
 	ofstream logFile;
 	logFile.open("Benchmark.txt", ios::app);
 	Timer timer;
@@ -367,6 +448,7 @@ void benchmarkStacker() {
 	string startTime(ctime(&benchStart));
 	logFile << "Starting Stacking Benchmark: " << startTime;
 
+	//run all algorithms on image set 1
 	logFile << "\nImage Set 1:";
 
 	timer.start();
@@ -399,6 +481,7 @@ void benchmarkStacker() {
 	timer.stop();
 	logFile << "\n\tSigma Clipped Mean Parallel Blending Time: " << timer.getSeconds() << " seconds";
 
+	//run all algorithms on image set 2
 	logFile << "\nImage Set 2:";
 
 	timer.start();
@@ -431,6 +514,7 @@ void benchmarkStacker() {
 	timer.stop();
 	logFile << "\n\tSigma Clipped Mean Parallel Blending Time: " << timer.getSeconds() << " seconds";
 
+	//run all algorithms on image set 3
 	logFile << "\nImage Set 3:";
 
 	timer.start();
@@ -463,6 +547,7 @@ void benchmarkStacker() {
 	timer.stop();
 	logFile << "\n\tSigma Clipped Mean Parallel Blending Time: " << timer.getSeconds() << " seconds";
 
+	//run all algorithms on image set 4
 	logFile << "\nImage Set 4:";
 
 	timer.start();
@@ -499,6 +584,10 @@ void benchmarkStacker() {
 	logFile.close();
 }
 
+/// <summary>
+/// Display the main menu
+/// </summary>
+/// <returns>exit code</returns>
 int showMainMenu() {
 	clearConsole();
 	cout << "MAIN MENU\n";
@@ -524,7 +613,6 @@ int showMainMenu() {
 	return 1;
 }
 
-
 int main() {
 	cout << "************************************" << endl;
 	cout << "Image Stacker / Image Scaler" << endl;
@@ -532,5 +620,3 @@ int main() {
 	while (showMainMenu() != 0);
 	return 0;
 }
-
-
