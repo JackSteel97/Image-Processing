@@ -1,0 +1,61 @@
+Starting Scaler Benchmark: Sun Dec 17 19:15:27 2017
+
+Scale 2x:
+	Nearest Neighbour: 0.476
+	Nearest Neighbour Parallel: 0.446
+
+	Bilinear: 0.489
+	Bilinear Parallel: 0.442
+
+	Bicubic: 0.926
+	Bicubic Parallel: 0.511
+Scale 4x:
+	Nearest Neighbour: 1.74
+	Nearest Neighbour Parallel: 1.691
+
+	Bilinear: 1.882
+	Bilinear Parallel: 1.687
+
+	Bicubic: 3.261
+	Bicubic Parallel: 1.895
+Scale 10x:
+	Nearest Neighbour: 11.218
+	Nearest Neighbour Parallel: 11.252
+
+	Bilinear: 12.036
+	Bilinear Parallel: 10.979
+
+	Bicubic: 20.598
+	Bicubic Parallel: 12.981
+
+Starting Stacking Benchmark: Sun Dec 17 19:17:01 2017
+
+Image Set 1:
+	Mean Blending Time: 7.037 seconds
+	Mean Blending Parallel Time: 6.265 seconds
+	Median Blending Time: 12.513 seconds
+	Median Blending Parallel Time: 9.133 seconds
+	Sigma Clipped Mean Blending Time: 15.829 seconds
+	Sigma Clipped Mean Parallel Blending Time: 10.408 seconds
+Image Set 2:
+	Mean Blending Time: 10.417 seconds
+	Mean Blending Parallel Time: 9.267 seconds
+	Median Blending Time: 17.844 seconds
+	Median Blending Parallel Time: 13.535 seconds
+	Sigma Clipped Mean Blending Time: 23.017 seconds
+	Sigma Clipped Mean Parallel Blending Time: 17.179 seconds
+Image Set 3:
+	Mean Blending Time: 10.381 seconds
+	Mean Blending Parallel Time: 9.128 seconds
+	Median Blending Time: 18.395 seconds
+	Median Blending Parallel Time: 13.623 seconds
+	Sigma Clipped Mean Blending Time: 23.234 seconds
+	Sigma Clipped Mean Parallel Blending Time: 17.855 seconds
+Image Set 4:
+	Mean Blending Time: 10.046 seconds
+	Mean Blending Parallel Time: 9.137 seconds
+	Median Blending Time: 17.898 seconds
+	Median Blending Parallel Time: 13.688 seconds
+	Sigma Clipped Mean Blending Time: 23.061 seconds
+	Sigma Clipped Mean Parallel Blending Time: 17.717 seconds
+
