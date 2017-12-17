@@ -9,7 +9,7 @@ using namespace Concurrency;
 class Stacker {
 public:
 	static StackedImage MeanBlend(vector<Image> &imgs) {
-		const unsigned int imageNumber = imgs.size();
+		const unsigned int imageNumber = (unsigned int)imgs.size();
 		vector<Image>::const_iterator it;
 		StackedImage *output = new StackedImage(imgs.at(0).w, imgs.at(0).h, "Mean Blend");
 		output->setColourDepth(imgs[0].getColourDepth());
@@ -33,7 +33,7 @@ public:
 	}
 
 	static StackedImage MeanBlendParallel(vector<Image> &imgs) {
-		const unsigned int imageNum = imgs.size();
+		const unsigned int imageNum = (unsigned int)imgs.size();
 		StackedImage *output = new StackedImage(imgs.at(0).w, imgs.at(0).h, "Mean Blend");
 		output->setColourDepth(imgs[0].getColourDepth());
 		const unsigned int imageSize = output->h * output->w;
@@ -41,7 +41,7 @@ public:
 		parallel_for(size_t(0), imgs.size(), [&imgs, &imageSize, &output](size_t i) {
 			Image cur = imgs.at(i);
 			//add pixel values to output image
-			const unsigned char currentImage = i + 1;
+			const unsigned char currentImage = (unsigned char)i + 1;
 			for (unsigned int pixelIndex = 0; pixelIndex < imageSize; pixelIndex++) {
 				Image::Rgb curRgb = cur.pixels[pixelIndex];
 				output->pixels[pixelIndex].r += (curRgb.r - output->pixels[pixelIndex].r) / currentImage;
@@ -56,7 +56,7 @@ public:
 	}
 
 	static StackedImage MedianBlendParallel(vector<Image> &imgs) {
-		const unsigned int imageNum = imgs.size();
+		const unsigned int imageNum = (unsigned int)imgs.size();
 		vector<Image>::const_iterator it;
 		StackedImage *output = new StackedImage(imgs.at(0).w, imgs.at(0).h, "Median Blend");
 		output->setColourDepth(imgs[0].getColourDepth());
@@ -92,15 +92,15 @@ public:
 			delete greens[i];
 			delete blues[i];
 		});
-		delete reds;
-		delete greens;
-		delete blues;
+		delete[] reds;
+		delete[] greens;
+		delete[] blues;
 		output->updateModified();
 		return *output;
 	}
 
 	static StackedImage MedianBlend(vector<Image> &imgs) {
-		const unsigned int imageNum = imgs.size();
+		const unsigned int imageNum = (unsigned int)imgs.size();
 		vector<Image>::const_iterator it;
 		StackedImage *output = new StackedImage(imgs.at(0).w, imgs.at(0).h, "Median Blend");
 		output->setColourDepth(imgs[0].getColourDepth());
@@ -139,9 +139,9 @@ public:
 			delete blues[pixelIndex];
 		}
 
-		delete reds;
-		delete greens;
-		delete blues;
+		delete[] reds;
+		delete[] greens;
+		delete[] blues;
 		output->updateModified();
 		return *output;
 	}
@@ -151,7 +151,7 @@ public:
 		if (iterations < 1) {
 			throw new invalid_argument("The number of iterations cannot be less than 1!");
 		}
-		const unsigned int imageNum = imgs.size();
+		const unsigned int imageNum = (unsigned int)imgs.size();
 		vector<Image>::const_iterator it;
 		cout << "Allocating Memory...\n";
 
@@ -231,9 +231,9 @@ public:
 					}
 				}
 
-				output->pixels[pixelIndex].r = calculateMean(reds[pixelIndex], reds[pixelIndex].size());
-				output->pixels[pixelIndex].g = calculateMean(greens[pixelIndex], greens[pixelIndex].size());
-				output->pixels[pixelIndex].b = calculateMean(blues[pixelIndex], blues[pixelIndex].size());
+				output->pixels[pixelIndex].r = (unsigned char)calculateMean(reds[pixelIndex], reds[pixelIndex].size());
+				output->pixels[pixelIndex].g = (unsigned char)calculateMean(greens[pixelIndex], greens[pixelIndex].size());
+				output->pixels[pixelIndex].b = (unsigned char)calculateMean(blues[pixelIndex], blues[pixelIndex].size());
 			});
 		}
 		output->updateModified();
@@ -244,7 +244,7 @@ public:
 		if (iterations < 1) {
 			throw new invalid_argument("The number of iterations cannot be less than 1!");
 		}
-		const unsigned int imageNum = imgs.size();
+		const unsigned int imageNum = (unsigned int)imgs.size();
 		vector<Image>::const_iterator it;
 		cout << "Allocating Memory...\n";
 
@@ -323,9 +323,9 @@ public:
 					}
 				}
 
-				output->pixels[pixelIndex].r = calculateMean(reds[pixelIndex], reds[pixelIndex].size());
-				output->pixels[pixelIndex].g = calculateMean(greens[pixelIndex], greens[pixelIndex].size());
-				output->pixels[pixelIndex].b = calculateMean(blues[pixelIndex], blues[pixelIndex].size());
+				output->pixels[pixelIndex].r = (unsigned char)calculateMean(reds[pixelIndex], reds[pixelIndex].size());
+				output->pixels[pixelIndex].g = (unsigned char)calculateMean(greens[pixelIndex], greens[pixelIndex].size());
+				output->pixels[pixelIndex].b = (unsigned char)calculateMean(blues[pixelIndex], blues[pixelIndex].size());
 			}
 		}
 		output->updateModified();

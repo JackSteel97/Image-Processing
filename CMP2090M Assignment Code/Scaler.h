@@ -52,7 +52,7 @@ public:
 		parallel_for(size_t(0), size_t(newH), [&img, &newW, &xRatio,&yRatio, &output](size_t i) {
 			float px, py, diffX, diffY;
 			Image::Rgb a, b, c, d;
-			for (int j = 0; j < newW; j++) {
+			for (unsigned int j = 0; j < newW; j++) {
 				px = floor(j*xRatio);
 				py = floor(i*yRatio);
 
@@ -65,11 +65,11 @@ public:
 				d = img.pixels[index + img.w + 1];
 
 				//red
-				output->pixels[(i*newW) + j].r = BilinearInterpolate(a.r, b.r, c.r, d.r, diffX, diffY);
+				output->pixels[(i*newW) + j].r = (unsigned char)BilinearInterpolate(a.r, b.r, c.r, d.r, diffX, diffY);
 				//green
-				output->pixels[(i*newW) + j].g = BilinearInterpolate(a.g, b.g, c.g, d.g, diffX, diffY);
+				output->pixels[(i*newW) + j].g = (unsigned char)BilinearInterpolate(a.g, b.g, c.g, d.g, diffX, diffY);
 				//blue
-				output->pixels[(i*newW) + j].b = BilinearInterpolate(a.b, b.b, c.b, d.b, diffX, diffY);
+				output->pixels[(i*newW) + j].b = (unsigned char)BilinearInterpolate(a.b, b.b, c.b, d.b, diffX, diffY);
 			}
 		});
 
@@ -86,8 +86,8 @@ public:
 		const float yRatio = (img.h-1) / (float)newH;
 		float px, py,diffX,diffY;
 		Image::Rgb a, b, c, d;
-		for (int i = 0; i < newH; i++) {
-			for (int j = 0; j < newW; j++) {
+		for (unsigned int i = 0; i < newH; i++) {
+			for (unsigned int j = 0; j < newW; j++) {
 				px = floor(j*xRatio);
 				py = floor(i*yRatio);
 
@@ -100,11 +100,11 @@ public:
 				d = img.pixels[index + img.w + 1];
 
 				//red
-				output->pixels[(i*newW) + j].r = BilinearInterpolate(a.r, b.r, c.r, d.r, diffX, diffY);
+				output->pixels[(i*newW) + j].r = (unsigned char)BilinearInterpolate(a.r, b.r, c.r, d.r, diffX, diffY);
 				//green
-				output->pixels[(i*newW) + j].g = BilinearInterpolate(a.g, b.g, c.g, d.g, diffX, diffY);
+				output->pixels[(i*newW) + j].g = (unsigned char)BilinearInterpolate(a.g, b.g, c.g, d.g, diffX, diffY);
 				//blue
-				output->pixels[(i*newW) + j].b = BilinearInterpolate(a.b, b.b, c.b, d.b, diffX, diffY);
+				output->pixels[(i*newW) + j].b = (unsigned char)BilinearInterpolate(a.b, b.b, c.b, d.b, diffX, diffY);
 			}
 		}
 		output->updateModified();
@@ -114,8 +114,8 @@ public:
 	static Image::Rgb getPixel(const Image &src,const int &x,const int &y) {
 		//clamp values
 		unsigned int xP, yP;
-		xP = Clamp(x, 0, src.w-1);
-		yP = Clamp(y, 0, src.h-1);
+		xP = (unsigned int)Clamp((float)x, (float)0, (float)src.w-1);
+		yP = (unsigned int)Clamp((float)y, (float)0, (float)src.h-1);
 		return src.pixels[(yP * src.w) + xP];
 	}
 
@@ -128,13 +128,14 @@ public:
 		const float yRatio = (img.h - 1) / (float)newH;
 
 		parallel_for(size_t(0), size_t(newH), [&newW, &xRatio, &yRatio, &img, &output](size_t i) {
-			float px, py, ax, ay, xfract, yfract;
+			float ax, ay, xfract, yfract;
+			int px, py;
 			Image::Rgb p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16;
-			for (int j = 0; j < newW; j++) {
+			for (unsigned int j = 0; j < newW; j++) {
 				ax = j * xRatio;
 				ay = i*yRatio;
-				px = floor(ax);
-				py = floor(ay);
+				px = (int)floor(ax);
+				py = (int)floor(ay);
 
 				xfract = ax - px;
 				yfract = ay - py;
@@ -178,11 +179,11 @@ public:
 				float Db = Clamp(cubicInterpolate(p13.b, p14.b, p15.b, p16.b, xfract), 0, 255);
 
 				//red
-				output->pixels[(i*newW) + j].r = Clamp(cubicInterpolate(Ar, Br, Cr, Dr, yfract), 0, 255);
+				output->pixels[(i*newW) + j].r = (unsigned char)Clamp(cubicInterpolate(Ar, Br, Cr, Dr, yfract), 0, 255);
 				//green
-				output->pixels[(i*newW) + j].g = Clamp(cubicInterpolate(Ag, Bg, Cg, Dg, yfract), 0, 255);
+				output->pixels[(i*newW) + j].g = (unsigned char)Clamp(cubicInterpolate(Ag, Bg, Cg, Dg, yfract), 0, 255);
 				//blue
-				output->pixels[(i*newW) + j].b = Clamp(cubicInterpolate(Ab, Bb, Cb, Db, yfract), 0, 255);
+				output->pixels[(i*newW) + j].b = (unsigned char)Clamp(cubicInterpolate(Ab, Bb, Cb, Db, yfract), 0, 255);
 			}
 
 		});
@@ -199,14 +200,15 @@ public:
 		const float xRatio = (img.w - 1) / (float)newW;
 		const float yRatio = (img.h - 1) / (float)newH;
 	
-		float px, py, ax, ay, xfract, yfract;
+		float ax, ay, xfract, yfract;
+		int px, py;
 		Image::Rgb p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16;
-		for (int i = 0; i < newH; i++) {
-			for (int j = 0; j < newW; j++) {
+		for (unsigned int i = 0; i < newH; i++) {
+			for (unsigned int j = 0; j < newW; j++) {
 				ax = j * xRatio;
 				ay = i*yRatio;
-				px = floor(ax);
-				py = floor(ay);
+				px = (int)floor(ax);
+				py = (int)floor(ay);
 
 				xfract = ax - px;
 				yfract = ay - py;
@@ -250,11 +252,11 @@ public:
 				float Db = Clamp(cubicInterpolate(p13.b, p14.b, p15.b, p16.b, xfract), 0, 255);
 
 				//red
-				output->pixels[(i*newW) + j].r = Clamp(cubicInterpolate(Ar, Br, Cr, Dr, yfract),0,255);
+				output->pixels[(i*newW) + j].r = (unsigned char)Clamp(cubicInterpolate(Ar, Br, Cr, Dr, yfract),0,255);
 				//green
-				output->pixels[(i*newW) + j].g = Clamp(cubicInterpolate(Ag, Bg, Cg, Dg, yfract),0,255);
+				output->pixels[(i*newW) + j].g = (unsigned char)Clamp(cubicInterpolate(Ag, Bg, Cg, Dg, yfract),0,255);
 				//blue
-				output->pixels[(i*newW) + j].b = Clamp(cubicInterpolate(Ab, Bb, Cb, Db, yfract),0,255);
+				output->pixels[(i*newW) + j].b = (unsigned char)Clamp(cubicInterpolate(Ab, Bb, Cb, Db, yfract),0,255);
 			}
 		}
 		output->updateModified();
@@ -285,11 +287,11 @@ public:
 	}
 
 private:
-	static float BilinearInterpolate(unsigned char A, unsigned char B, unsigned char C, unsigned char D, float w, float h) {
+	static float BilinearInterpolate(float A, float B, float C, float D, float w, float h) {
 		return A*(1 - w)*(1 - h) + B*w*(1 - h) + C*h*(1 - w) + D*w*h;
 	}
 
-	static float cubicInterpolate(unsigned char A, unsigned char B, unsigned char C, unsigned char D, float x) {
-		return B + 0.5 * x*(C - A + x*(2.0*A - 5.0*B + 4.0*C - D + x*(3.0*(B - C) + D - A)));
+	static float cubicInterpolate(float A, float B, float C, float D, float x) {
+		return float(B + 0.5 * x*(C - A + x*(2.0*A - 5.0*B + 4.0*C - D + x*(3.0*(B - C) + D - A))));
 	}
 };

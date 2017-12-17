@@ -153,7 +153,6 @@ void ImageScaler(int method, double scale, bool scaleROI = false, int roiLeft = 
 	else {
 		img = Image("Images/Zoom/zImg_1.ppm");
 	}
-
 	ScaledImage output;
 	switch (method) {
 	case 1:
@@ -195,7 +194,7 @@ void ImageScaler(int method, double scale, bool scaleROI = false, int roiLeft = 
 	cout << "Finished Scaling in " << timer.getSeconds() << " seconds\n";
 
 	string filePath = "Images/Zoom/" + fileName;
-
+	output.logDetails();
 	output.writePPM(filePath.c_str());
 	img.freeMemory();
 	output.freeMemory();

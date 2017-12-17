@@ -39,7 +39,7 @@ public:
 		}
 		friend unsigned char& operator += (unsigned char &f, const Rgb rgb)
 		{
-			f += (rgb.r + rgb.g + rgb.b) / 3.f; return f;
+			f += (rgb.r + rgb.g + rgb.b) / 3; return f;
 		}
 		unsigned char r, g, b;
 	};
@@ -91,7 +91,7 @@ public:
 		logFile << "Source Image: " << fileName << "\n";
 		logFile << "Image Width: " << w << "\n";
 		logFile << "Image Height: " << h << "\n";
-		logFile << "Colour Depth: " << sizeof(pixels[0].r) * 3 << " bit\n";
+		logFile << "Colour Depth: " << colourDepth << " bit\n";
 		logFile << "Image Statistics: " << "\n\tImage Size in memory: " << bytesToAppropriate(sizeof(pixels[0].r) * 3 * h*w + sizeof(h) + sizeof(w) + sizeof(fileName)).str() << "\n";
 		string createStr(ctime(&creationTime));
 		string modifStr(ctime(&modifiedTime));
@@ -109,7 +109,7 @@ public:
 		modifiedTime = time(&modifiedTime);
 	}
 
-	void setColourDepth(int depthInBits) {
+	void setColourDepth(unsigned int depthInBits) {
 		colourDepth = depthInBits;
 	}
 
@@ -142,12 +142,12 @@ public:
 			this->h = h;
 			const unsigned int imageSize = w * h;
 			//calculate colour bit depth
-			this->setColourDepth(log2(pow(b + 1, 3)));
+			this->setColourDepth((unsigned int)log2(pow(b + 1, 3)));
 			//std::cout << w << " " << h << std::endl;
 			this->pixels = new Image::Rgb[w * h]; // this is throw an exception if bad_alloc 
 			ifs.ignore(256, '\n'); // skip empty lines in necessary until we get to the binary data 
 			unsigned char pix[3]; // read each pixel one by one and convert bytes to floats 
-			for (int i = 0; i < imageSize; ++i) {
+			for (unsigned int i = 0; i < imageSize; ++i) {
 				ifs.read(reinterpret_cast<char *>(pix), 3);
 				this->pixels[i].r = pix[0];
 				this->pixels[i].g = pix[1];
@@ -209,7 +209,7 @@ protected:
 	char *fileName;
 	time_t creationTime;
 	time_t modifiedTime;
-	int colourDepth;
+	unsigned int colourDepth;
 };
 
 class ScaledImage : public Image {
@@ -265,7 +265,7 @@ public:
 	void logDetails() {
 		ofstream logFile;
 		logFile.open("DetailsLog.txt", ios::app);
-		logFile << "\n======Scaled Image======\n";
+		logFile << "\n======Stacked Image======\n";
 		logFile << "Source Image: " << fileName << "\n";
 		logFile << "Image Width: " << w << "\n";
 		logFile << "Image Height: " << h << "\n";
