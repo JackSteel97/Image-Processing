@@ -131,7 +131,7 @@ void ImageStacker(const unsigned int &method, const unsigned int &imageSet) {
 		//sigma clipped mean blending (optimised)
 		cout << "\nSigma Clipped Mean Blending Images...\n";
 		fileName = "SigmaClippedMeanOutput.ppm";
-		output = Stacker::SigmaClippedMeanBlendParallel(images, 1);
+		output = Stacker::SigmaClippedMeanBlendParallel(images, 5);
 		break;
 	case 4:
 		//median blending
@@ -177,7 +177,7 @@ void ImageStacker(const unsigned int &method, const unsigned int &imageSet) {
 /// <param name="roiHeight">height of ROI</param>
 void ImageScaler(const unsigned int &method, const double &scale, const bool &scaleROI = false, const unsigned int &roiLeft = 0, const unsigned int &roiTop = 0, const unsigned int &roiWidth = 0, const unsigned int &roiHeight = 0) {
 	Image img;
-	string fileName = "default.ppm";
+	std::stringstream fileName;
 	cout << "\n";
 	Timer timer;
 	timer.start();
@@ -197,37 +197,37 @@ void ImageScaler(const unsigned int &method, const double &scale, const bool &sc
 	case 1:
 		//nearest neighbour (optimised)
 		cout << "\nNearest Neighbour Scaling...\n";
-		fileName = "NearestNeighbourScaled.ppm";
+		fileName << "NearestNeighbourScaled" << scale << "x.ppm";
 		output = Scaler::NearestNeighbourParallel(img, scale);
 		break;
 	case 2:
 		//bilinear (optimised)
 		cout << "\nBilinear Scaling...\n";
-		fileName = "BilinearScaled.ppm";
+		fileName << "BilinearScaled" << scale << "x.ppm";
 		output = Scaler::BilinearParallel(img, scale);
 		break;
 	case 3:
 		//bicubic (optimised)
 		cout << "\nBicubic Scaling...\n";
-		fileName = "BicubicScaled.ppm";
+		fileName << "BicubicScaled" << scale << "x.ppm";
 		output = Scaler::BiCubicParallel(img, scale);
 		break;
 	case 4:
 		//nearest neighbour
 		cout << "\nNearest Neighbour Scaling...\n";
-		fileName = "NearestNeighbourScaled.ppm";
+		fileName << "NearestNeighbourScaledSerial" << scale << "x.ppm";
 		output = Scaler::NearestNeighbour(img, scale);
 		break;
 	case 5:
 		//bilinear
 		cout << "\nBilinear Scaling...\n";
-		fileName = "BilinearScaled.ppm";
+		fileName << "BilinearScaledSerial" << scale << "x.ppm";
 		output = Scaler::Bilinear(img, scale);
 		break;
 	case 6:
 		//bicubic
 		cout << "\nBicubic Scaling...\n";
-		fileName = "BicubicScaled.ppm";
+		fileName << "BicubicScaledSerial" << scale << "x.ppm";
 		output = Scaler::BiCubic(img, scale);
 		break;
 	default:
@@ -239,7 +239,7 @@ void ImageScaler(const unsigned int &method, const double &scale, const bool &sc
 	cout << "Finished Scaling in " << timer.getSeconds() << " seconds\n";
 
 	//write to file
-	string filePath = "Images/Zoom/" + fileName;	
+	string filePath = "Images/Zoom/" + fileName.str();	
 	output.writePPM(filePath.c_str());
 
 	//log details
