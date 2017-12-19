@@ -119,7 +119,7 @@ void ImageStacker(const unsigned int &method, const unsigned int &imageSet) {
 		//mean blending (optimised)
 		cout << "\nMean Blending Images...\n";
 		fileName = "MeanOutput.ppm";
-		output = Stacker::MeanBlendParallel(images);
+		output = Stacker::MeanBlend(images);
 		break;
 	case 2:
 		//median blending (optimised)
@@ -134,18 +134,12 @@ void ImageStacker(const unsigned int &method, const unsigned int &imageSet) {
 		output = Stacker::SigmaClippedMeanBlendParallel(images, 1);
 		break;
 	case 4:
-		//mean blending
-		cout << "\nMean Blending Images...\n";
-		fileName = "MeanOutput2.ppm";
-		output = Stacker::MeanBlend(images);
-		break;
-	case 5:
 		//median blending
 		cout << "\nMedian Blending Images...\n";
 		fileName = "MedianOutput2.ppm";
 		output = Stacker::MedianBlend(images);
 		break;
-	case 6:
+	case 5:
 		//sigma clipped mean blending
 		cout << "\nSigma Clipped Mean Blending Images...\n";
 		fileName = "SigmaClippedMeanOutput2.ppm";
@@ -452,17 +446,12 @@ void benchmarkStacker() {
 	logFile << "\nImage Set 1:";
 
 	timer.start();
-	ImageStacker(4, 1);
+	ImageStacker(1, 1);
 	timer.stop();
 	logFile << "\n\tMean Blending Time: " << timer.getSeconds() << " seconds";
 
 	timer.start();
-	ImageStacker(1, 1);
-	timer.stop();
-	logFile << "\n\tMean Blending Parallel Time: " << timer.getSeconds() << " seconds";
-
-	timer.start();
-	ImageStacker(5, 1);
+	ImageStacker(4, 1);
 	timer.stop();
 	logFile << "\n\tMedian Blending Time: " << timer.getSeconds() << " seconds";
 
@@ -472,7 +461,7 @@ void benchmarkStacker() {
 	logFile << "\n\tMedian Blending Parallel Time: " << timer.getSeconds() << " seconds";
 
 	timer.start();
-	ImageStacker(6, 1);
+	ImageStacker(5, 1);
 	timer.stop();
 	logFile << "\n\tSigma Clipped Mean Blending Time: " << timer.getSeconds() << " seconds";
 
@@ -485,17 +474,12 @@ void benchmarkStacker() {
 	logFile << "\nImage Set 2:";
 
 	timer.start();
-	ImageStacker(4, 2);
+	ImageStacker(1, 2);
 	timer.stop();
 	logFile << "\n\tMean Blending Time: " << timer.getSeconds() << " seconds";
 
 	timer.start();
-	ImageStacker(1, 2);
-	timer.stop();
-	logFile << "\n\tMean Blending Parallel Time: " << timer.getSeconds() << " seconds";
-
-	timer.start();
-	ImageStacker(5, 2);
+	ImageStacker(4, 2);
 	timer.stop();
 	logFile << "\n\tMedian Blending Time: " << timer.getSeconds() << " seconds";
 
@@ -505,7 +489,7 @@ void benchmarkStacker() {
 	logFile << "\n\tMedian Blending Parallel Time: " << timer.getSeconds() << " seconds";
 
 	timer.start();
-	ImageStacker(6, 2);
+	ImageStacker(5, 2);
 	timer.stop();
 	logFile << "\n\tSigma Clipped Mean Blending Time: " << timer.getSeconds() << " seconds";
 
@@ -518,17 +502,12 @@ void benchmarkStacker() {
 	logFile << "\nImage Set 3:";
 
 	timer.start();
-	ImageStacker(4, 3);
+	ImageStacker(1, 3);
 	timer.stop();
 	logFile << "\n\tMean Blending Time: " << timer.getSeconds() << " seconds";
 
 	timer.start();
-	ImageStacker(1, 3);
-	timer.stop();
-	logFile << "\n\tMean Blending Parallel Time: " << timer.getSeconds() << " seconds";
-
-	timer.start();
-	ImageStacker(5, 3);
+	ImageStacker(4, 3);
 	timer.stop();
 	logFile << "\n\tMedian Blending Time: " << timer.getSeconds() << " seconds";
 
@@ -538,7 +517,7 @@ void benchmarkStacker() {
 	logFile << "\n\tMedian Blending Parallel Time: " << timer.getSeconds() << " seconds";
 
 	timer.start();
-	ImageStacker(6, 3);
+	ImageStacker(5, 3);
 	timer.stop();
 	logFile << "\n\tSigma Clipped Mean Blending Time: " << timer.getSeconds() << " seconds";
 
@@ -551,17 +530,12 @@ void benchmarkStacker() {
 	logFile << "\nImage Set 4:";
 
 	timer.start();
-	ImageStacker(4, 4);
+	ImageStacker(1, 4);
 	timer.stop();
 	logFile << "\n\tMean Blending Time: " << timer.getSeconds() << " seconds";
 
 	timer.start();
-	ImageStacker(1, 4);
-	timer.stop();
-	logFile << "\n\tMean Blending Parallel Time: " << timer.getSeconds() << " seconds";
-
-	timer.start();
-	ImageStacker(5, 4);
+	ImageStacker(4, 4);
 	timer.stop();
 	logFile << "\n\tMedian Blending Time: " << timer.getSeconds() << " seconds";
 
@@ -571,7 +545,7 @@ void benchmarkStacker() {
 	logFile << "\n\tMedian Blending Parallel Time: " << timer.getSeconds() << " seconds";
 
 	timer.start();
-	ImageStacker(6, 4);
+	ImageStacker(5, 4);
 	timer.stop();
 	logFile << "\n\tSigma Clipped Mean Blending Time: " << timer.getSeconds() << " seconds";
 
@@ -590,6 +564,9 @@ void benchmarkStacker() {
 /// <returns>exit code</returns>
 int showMainMenu() {
 	clearConsole();
+	cout << "************************************\n";
+	cout << "Image Stacker / Image Scaler\n";
+	cout << "************************************\n";
 	cout << "MAIN MENU\n";
 	cout << "\t1. Image Stacker\n\t2. Image Scaler\n\t3. Benchmark (Outputs results to benchmark.txt, takes about 10 mins)\n\t4. Quit\n";
 	cout << "Choose an option: ";
@@ -609,14 +586,13 @@ int showMainMenu() {
 	case 4:
 		return 0;
 	}
+	//wait for user to continue
 	system("pause");
 	return 1;
 }
 
 int main() {
-	cout << "************************************" << endl;
-	cout << "Image Stacker / Image Scaler" << endl;
-	cout << "************************************" << endl;
+	//repeat until user chooses to quit
 	while (showMainMenu() != 0);
 	return 0;
 }
