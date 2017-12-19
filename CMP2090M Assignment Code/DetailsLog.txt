@@ -5379,3 +5379,3299 @@ Image Statistics:
 	Created: Tue Dec 19 20:03:15 2017
 	Last Modified: Tue Dec 19 20:03:15 2017
 =================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_1.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:51:59 2017
+	Last Modified: Tue Dec 19 21:51:59 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_2.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:00 2017
+	Last Modified: Tue Dec 19 21:52:00 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_3.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:00 2017
+	Last Modified: Tue Dec 19 21:52:00 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_4.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:00 2017
+	Last Modified: Tue Dec 19 21:52:00 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_5.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:00 2017
+	Last Modified: Tue Dec 19 21:52:00 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_6.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:01 2017
+	Last Modified: Tue Dec 19 21:52:01 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_7.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:01 2017
+	Last Modified: Tue Dec 19 21:52:01 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_8.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:01 2017
+	Last Modified: Tue Dec 19 21:52:01 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_9.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:02 2017
+	Last Modified: Tue Dec 19 21:52:02 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_10.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:02 2017
+	Last Modified: Tue Dec 19 21:52:02 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_11.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:02 2017
+	Last Modified: Tue Dec 19 21:52:02 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_12.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:02 2017
+	Last Modified: Tue Dec 19 21:52:02 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_13.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:03 2017
+	Last Modified: Tue Dec 19 21:52:03 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set1/MeanOutput.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:52:03 2017
+	Last Modified: Tue Dec 19 21:52:04 2017
+	Stacking Method: Mean Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:17 2017
+	Last Modified: Tue Dec 19 21:52:17 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:18 2017
+	Last Modified: Tue Dec 19 21:52:18 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:18 2017
+	Last Modified: Tue Dec 19 21:52:18 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:19 2017
+	Last Modified: Tue Dec 19 21:52:19 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:19 2017
+	Last Modified: Tue Dec 19 21:52:19 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:20 2017
+	Last Modified: Tue Dec 19 21:52:20 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:20 2017
+	Last Modified: Tue Dec 19 21:52:20 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:21 2017
+	Last Modified: Tue Dec 19 21:52:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:21 2017
+	Last Modified: Tue Dec 19 21:52:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:22 2017
+	Last Modified: Tue Dec 19 21:52:22 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set4/SigmaClippedMeanOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:52:22 2017
+	Last Modified: Tue Dec 19 21:52:28 2017
+	Stacking Method: Sigma Clipped Mean
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:39 2017
+	Last Modified: Tue Dec 19 21:52:39 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/NearestNeighbourScaledSerial2x.ppm
+Image Width: 1500
+Image Height: 1500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 6.43733 MB
+	Created: Tue Dec 19 21:52:39 2017
+	Last Modified: Tue Dec 19 21:52:39 2017
+	Scale Factor: 2
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:40 2017
+	Last Modified: Tue Dec 19 21:52:40 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/NearestNeighbourScaled2x.ppm
+Image Width: 1500
+Image Height: 1500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 6.43733 MB
+	Created: Tue Dec 19 21:52:40 2017
+	Last Modified: Tue Dec 19 21:52:40 2017
+	Scale Factor: 2
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:40 2017
+	Last Modified: Tue Dec 19 21:52:40 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BilinearScaledSerial2x.ppm
+Image Width: 1500
+Image Height: 1500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 6.43733 MB
+	Created: Tue Dec 19 21:52:40 2017
+	Last Modified: Tue Dec 19 21:52:40 2017
+	Scale Factor: 2
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:41 2017
+	Last Modified: Tue Dec 19 21:52:41 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BilinearScaled2x.ppm
+Image Width: 1500
+Image Height: 1500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 6.43733 MB
+	Created: Tue Dec 19 21:52:41 2017
+	Last Modified: Tue Dec 19 21:52:41 2017
+	Scale Factor: 2
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:41 2017
+	Last Modified: Tue Dec 19 21:52:41 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BicubicScaledSerial2x.ppm
+Image Width: 1500
+Image Height: 1500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 6.43733 MB
+	Created: Tue Dec 19 21:52:41 2017
+	Last Modified: Tue Dec 19 21:52:41 2017
+	Scale Factor: 2
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:42 2017
+	Last Modified: Tue Dec 19 21:52:42 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BicubicScaled2x.ppm
+Image Width: 1500
+Image Height: 1500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 6.43733 MB
+	Created: Tue Dec 19 21:52:42 2017
+	Last Modified: Tue Dec 19 21:52:42 2017
+	Scale Factor: 2
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:42 2017
+	Last Modified: Tue Dec 19 21:52:42 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/NearestNeighbourScaledSerial4x.ppm
+Image Width: 3000
+Image Height: 3000
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 25.7492 MB
+	Created: Tue Dec 19 21:52:42 2017
+	Last Modified: Tue Dec 19 21:52:42 2017
+	Scale Factor: 4
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:44 2017
+	Last Modified: Tue Dec 19 21:52:44 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/NearestNeighbourScaled4x.ppm
+Image Width: 3000
+Image Height: 3000
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 25.7492 MB
+	Created: Tue Dec 19 21:52:44 2017
+	Last Modified: Tue Dec 19 21:52:44 2017
+	Scale Factor: 4
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:45 2017
+	Last Modified: Tue Dec 19 21:52:45 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BilinearScaledSerial4x.ppm
+Image Width: 3000
+Image Height: 3000
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 25.7492 MB
+	Created: Tue Dec 19 21:52:45 2017
+	Last Modified: Tue Dec 19 21:52:45 2017
+	Scale Factor: 4
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:47 2017
+	Last Modified: Tue Dec 19 21:52:47 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BilinearScaled4x.ppm
+Image Width: 3000
+Image Height: 3000
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 25.7492 MB
+	Created: Tue Dec 19 21:52:47 2017
+	Last Modified: Tue Dec 19 21:52:47 2017
+	Scale Factor: 4
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:48 2017
+	Last Modified: Tue Dec 19 21:52:48 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BicubicScaledSerial4x.ppm
+Image Width: 3000
+Image Height: 3000
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 25.7492 MB
+	Created: Tue Dec 19 21:52:48 2017
+	Last Modified: Tue Dec 19 21:52:50 2017
+	Scale Factor: 4
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:51 2017
+	Last Modified: Tue Dec 19 21:52:51 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BicubicScaled4x.ppm
+Image Width: 3000
+Image Height: 3000
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 25.7492 MB
+	Created: Tue Dec 19 21:52:51 2017
+	Last Modified: Tue Dec 19 21:52:52 2017
+	Scale Factor: 4
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:52:53 2017
+	Last Modified: Tue Dec 19 21:52:53 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/NearestNeighbourScaledSerial10x.ppm
+Image Width: 7500
+Image Height: 7500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 160.933 MB
+	Created: Tue Dec 19 21:52:53 2017
+	Last Modified: Tue Dec 19 21:52:54 2017
+	Scale Factor: 10
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:53:02 2017
+	Last Modified: Tue Dec 19 21:53:02 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/NearestNeighbourScaled10x.ppm
+Image Width: 7500
+Image Height: 7500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 160.933 MB
+	Created: Tue Dec 19 21:53:02 2017
+	Last Modified: Tue Dec 19 21:53:03 2017
+	Scale Factor: 10
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:53:11 2017
+	Last Modified: Tue Dec 19 21:53:11 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BilinearScaledSerial10x.ppm
+Image Width: 7500
+Image Height: 7500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 160.933 MB
+	Created: Tue Dec 19 21:53:11 2017
+	Last Modified: Tue Dec 19 21:53:13 2017
+	Scale Factor: 10
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:53:22 2017
+	Last Modified: Tue Dec 19 21:53:22 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BilinearScaled10x.ppm
+Image Width: 7500
+Image Height: 7500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 160.933 MB
+	Created: Tue Dec 19 21:53:22 2017
+	Last Modified: Tue Dec 19 21:53:23 2017
+	Scale Factor: 10
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:53:31 2017
+	Last Modified: Tue Dec 19 21:53:31 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BicubicScaledSerial10x.ppm
+Image Width: 7500
+Image Height: 7500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 160.933 MB
+	Created: Tue Dec 19 21:53:31 2017
+	Last Modified: Tue Dec 19 21:53:42 2017
+	Scale Factor: 10
+========================
+
+======Image======
+Source Image: Images/Zoom/zImg_1.ppm
+Image Width: 750
+Image Height: 750
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 1.60934 MB
+	Created: Tue Dec 19 21:53:50 2017
+	Last Modified: Tue Dec 19 21:53:50 2017
+=================
+
+======Scaled Image======
+Source Image: Images/Zoom/BicubicScaled10x.ppm
+Image Width: 7500
+Image Height: 7500
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 160.933 MB
+	Created: Tue Dec 19 21:53:50 2017
+	Last Modified: Tue Dec 19 21:53:53 2017
+	Scale Factor: 10
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_1.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:02 2017
+	Last Modified: Tue Dec 19 21:54:02 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_2.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:02 2017
+	Last Modified: Tue Dec 19 21:54:02 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_3.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:03 2017
+	Last Modified: Tue Dec 19 21:54:03 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_4.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:03 2017
+	Last Modified: Tue Dec 19 21:54:03 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_5.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:03 2017
+	Last Modified: Tue Dec 19 21:54:03 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_6.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:03 2017
+	Last Modified: Tue Dec 19 21:54:03 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_7.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:04 2017
+	Last Modified: Tue Dec 19 21:54:04 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_8.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:04 2017
+	Last Modified: Tue Dec 19 21:54:04 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_9.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:04 2017
+	Last Modified: Tue Dec 19 21:54:04 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_10.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:05 2017
+	Last Modified: Tue Dec 19 21:54:05 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_11.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:05 2017
+	Last Modified: Tue Dec 19 21:54:05 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_12.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:05 2017
+	Last Modified: Tue Dec 19 21:54:05 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_13.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:05 2017
+	Last Modified: Tue Dec 19 21:54:05 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set1/MeanOutput.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:06 2017
+	Last Modified: Tue Dec 19 21:54:07 2017
+	Stacking Method: Mean Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_1.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:08 2017
+	Last Modified: Tue Dec 19 21:54:08 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_2.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:08 2017
+	Last Modified: Tue Dec 19 21:54:08 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_3.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:09 2017
+	Last Modified: Tue Dec 19 21:54:09 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_4.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:09 2017
+	Last Modified: Tue Dec 19 21:54:09 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_5.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:09 2017
+	Last Modified: Tue Dec 19 21:54:09 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_6.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:09 2017
+	Last Modified: Tue Dec 19 21:54:09 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_7.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:10 2017
+	Last Modified: Tue Dec 19 21:54:10 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_8.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:10 2017
+	Last Modified: Tue Dec 19 21:54:10 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_9.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:10 2017
+	Last Modified: Tue Dec 19 21:54:10 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_10.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:11 2017
+	Last Modified: Tue Dec 19 21:54:11 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_11.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:11 2017
+	Last Modified: Tue Dec 19 21:54:11 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_12.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:11 2017
+	Last Modified: Tue Dec 19 21:54:11 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_13.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:12 2017
+	Last Modified: Tue Dec 19 21:54:12 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set1/MedianOutput2.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:12 2017
+	Last Modified: Tue Dec 19 21:54:19 2017
+	Stacking Method: Median Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_1.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:20 2017
+	Last Modified: Tue Dec 19 21:54:20 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_2.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:20 2017
+	Last Modified: Tue Dec 19 21:54:20 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_3.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:20 2017
+	Last Modified: Tue Dec 19 21:54:20 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_4.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:21 2017
+	Last Modified: Tue Dec 19 21:54:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_5.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:21 2017
+	Last Modified: Tue Dec 19 21:54:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_6.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:21 2017
+	Last Modified: Tue Dec 19 21:54:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_7.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:22 2017
+	Last Modified: Tue Dec 19 21:54:22 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_8.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:22 2017
+	Last Modified: Tue Dec 19 21:54:22 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_9.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:22 2017
+	Last Modified: Tue Dec 19 21:54:22 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_10.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:22 2017
+	Last Modified: Tue Dec 19 21:54:22 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_11.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:23 2017
+	Last Modified: Tue Dec 19 21:54:23 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_12.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:23 2017
+	Last Modified: Tue Dec 19 21:54:23 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_13.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:23 2017
+	Last Modified: Tue Dec 19 21:54:23 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set1/MedianOutput.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:24 2017
+	Last Modified: Tue Dec 19 21:54:27 2017
+	Stacking Method: Median Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_1.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:28 2017
+	Last Modified: Tue Dec 19 21:54:28 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_2.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:28 2017
+	Last Modified: Tue Dec 19 21:54:28 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_3.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:28 2017
+	Last Modified: Tue Dec 19 21:54:28 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_4.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:29 2017
+	Last Modified: Tue Dec 19 21:54:29 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_5.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:29 2017
+	Last Modified: Tue Dec 19 21:54:29 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_6.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:29 2017
+	Last Modified: Tue Dec 19 21:54:29 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_7.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:30 2017
+	Last Modified: Tue Dec 19 21:54:30 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_8.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:30 2017
+	Last Modified: Tue Dec 19 21:54:30 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_9.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:30 2017
+	Last Modified: Tue Dec 19 21:54:30 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_10.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:30 2017
+	Last Modified: Tue Dec 19 21:54:30 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_11.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:31 2017
+	Last Modified: Tue Dec 19 21:54:31 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_12.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:31 2017
+	Last Modified: Tue Dec 19 21:54:31 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_13.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:31 2017
+	Last Modified: Tue Dec 19 21:54:31 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set1/SigmaClippedMeanOutput2.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:32 2017
+	Last Modified: Tue Dec 19 21:54:40 2017
+	Stacking Method: Sigma Clipped Mean
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_1.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:43 2017
+	Last Modified: Tue Dec 19 21:54:43 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_2.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:43 2017
+	Last Modified: Tue Dec 19 21:54:43 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_3.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:43 2017
+	Last Modified: Tue Dec 19 21:54:43 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_4.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:44 2017
+	Last Modified: Tue Dec 19 21:54:44 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_5.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:44 2017
+	Last Modified: Tue Dec 19 21:54:44 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_6.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:44 2017
+	Last Modified: Tue Dec 19 21:54:44 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_7.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:45 2017
+	Last Modified: Tue Dec 19 21:54:45 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_8.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:45 2017
+	Last Modified: Tue Dec 19 21:54:45 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_9.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:45 2017
+	Last Modified: Tue Dec 19 21:54:45 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_10.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:46 2017
+	Last Modified: Tue Dec 19 21:54:46 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_11.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:46 2017
+	Last Modified: Tue Dec 19 21:54:46 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_12.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:46 2017
+	Last Modified: Tue Dec 19 21:54:46 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set1/IMG_13.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:46 2017
+	Last Modified: Tue Dec 19 21:54:46 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set1/SigmaClippedMeanOutput.ppm
+Image Width: 3264
+Image Height: 2448
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 22.8604 MB
+	Created: Tue Dec 19 21:54:47 2017
+	Last Modified: Tue Dec 19 21:54:51 2017
+	Stacking Method: Sigma Clipped Mean
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:54 2017
+	Last Modified: Tue Dec 19 21:54:54 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:54 2017
+	Last Modified: Tue Dec 19 21:54:54 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:55 2017
+	Last Modified: Tue Dec 19 21:54:55 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:55 2017
+	Last Modified: Tue Dec 19 21:54:55 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:56 2017
+	Last Modified: Tue Dec 19 21:54:56 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:56 2017
+	Last Modified: Tue Dec 19 21:54:56 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:57 2017
+	Last Modified: Tue Dec 19 21:54:57 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:57 2017
+	Last Modified: Tue Dec 19 21:54:57 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:58 2017
+	Last Modified: Tue Dec 19 21:54:58 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:59 2017
+	Last Modified: Tue Dec 19 21:54:59 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set2/MeanOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:54:59 2017
+	Last Modified: Tue Dec 19 21:55:00 2017
+	Stacking Method: Mean Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:03 2017
+	Last Modified: Tue Dec 19 21:55:03 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:03 2017
+	Last Modified: Tue Dec 19 21:55:03 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:04 2017
+	Last Modified: Tue Dec 19 21:55:04 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:04 2017
+	Last Modified: Tue Dec 19 21:55:04 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:05 2017
+	Last Modified: Tue Dec 19 21:55:05 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:05 2017
+	Last Modified: Tue Dec 19 21:55:05 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:06 2017
+	Last Modified: Tue Dec 19 21:55:06 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:06 2017
+	Last Modified: Tue Dec 19 21:55:06 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:07 2017
+	Last Modified: Tue Dec 19 21:55:07 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:07 2017
+	Last Modified: Tue Dec 19 21:55:07 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set2/MedianOutput2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:08 2017
+	Last Modified: Tue Dec 19 21:55:17 2017
+	Stacking Method: Median Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:19 2017
+	Last Modified: Tue Dec 19 21:55:19 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:20 2017
+	Last Modified: Tue Dec 19 21:55:20 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:20 2017
+	Last Modified: Tue Dec 19 21:55:20 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:21 2017
+	Last Modified: Tue Dec 19 21:55:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:21 2017
+	Last Modified: Tue Dec 19 21:55:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:22 2017
+	Last Modified: Tue Dec 19 21:55:22 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:22 2017
+	Last Modified: Tue Dec 19 21:55:22 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:23 2017
+	Last Modified: Tue Dec 19 21:55:23 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:23 2017
+	Last Modified: Tue Dec 19 21:55:23 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:24 2017
+	Last Modified: Tue Dec 19 21:55:24 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set2/MedianOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:24 2017
+	Last Modified: Tue Dec 19 21:55:29 2017
+	Stacking Method: Median Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:31 2017
+	Last Modified: Tue Dec 19 21:55:31 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:32 2017
+	Last Modified: Tue Dec 19 21:55:32 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:32 2017
+	Last Modified: Tue Dec 19 21:55:32 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:33 2017
+	Last Modified: Tue Dec 19 21:55:33 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:33 2017
+	Last Modified: Tue Dec 19 21:55:33 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:34 2017
+	Last Modified: Tue Dec 19 21:55:34 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:34 2017
+	Last Modified: Tue Dec 19 21:55:34 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:35 2017
+	Last Modified: Tue Dec 19 21:55:35 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:35 2017
+	Last Modified: Tue Dec 19 21:55:35 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:36 2017
+	Last Modified: Tue Dec 19 21:55:36 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set2/SigmaClippedMeanOutput2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:36 2017
+	Last Modified: Tue Dec 19 21:55:49 2017
+	Stacking Method: Sigma Clipped Mean
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:53 2017
+	Last Modified: Tue Dec 19 21:55:53 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:54 2017
+	Last Modified: Tue Dec 19 21:55:54 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:54 2017
+	Last Modified: Tue Dec 19 21:55:54 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:55 2017
+	Last Modified: Tue Dec 19 21:55:55 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:55 2017
+	Last Modified: Tue Dec 19 21:55:55 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:56 2017
+	Last Modified: Tue Dec 19 21:55:56 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:56 2017
+	Last Modified: Tue Dec 19 21:55:56 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:57 2017
+	Last Modified: Tue Dec 19 21:55:57 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:57 2017
+	Last Modified: Tue Dec 19 21:55:57 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set2/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:58 2017
+	Last Modified: Tue Dec 19 21:55:58 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set2/SigmaClippedMeanOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:55:58 2017
+	Last Modified: Tue Dec 19 21:56:05 2017
+	Stacking Method: Sigma Clipped Mean
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:12 2017
+	Last Modified: Tue Dec 19 21:56:12 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:12 2017
+	Last Modified: Tue Dec 19 21:56:12 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:13 2017
+	Last Modified: Tue Dec 19 21:56:13 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:13 2017
+	Last Modified: Tue Dec 19 21:56:13 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:14 2017
+	Last Modified: Tue Dec 19 21:56:14 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:14 2017
+	Last Modified: Tue Dec 19 21:56:14 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:15 2017
+	Last Modified: Tue Dec 19 21:56:15 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:15 2017
+	Last Modified: Tue Dec 19 21:56:15 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:16 2017
+	Last Modified: Tue Dec 19 21:56:16 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:16 2017
+	Last Modified: Tue Dec 19 21:56:16 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set3/MeanOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:17 2017
+	Last Modified: Tue Dec 19 21:56:18 2017
+	Stacking Method: Mean Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:20 2017
+	Last Modified: Tue Dec 19 21:56:20 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:21 2017
+	Last Modified: Tue Dec 19 21:56:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:21 2017
+	Last Modified: Tue Dec 19 21:56:21 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:22 2017
+	Last Modified: Tue Dec 19 21:56:22 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:22 2017
+	Last Modified: Tue Dec 19 21:56:22 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:23 2017
+	Last Modified: Tue Dec 19 21:56:23 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:23 2017
+	Last Modified: Tue Dec 19 21:56:23 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:24 2017
+	Last Modified: Tue Dec 19 21:56:24 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:24 2017
+	Last Modified: Tue Dec 19 21:56:24 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:25 2017
+	Last Modified: Tue Dec 19 21:56:25 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set3/MedianOutput2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:25 2017
+	Last Modified: Tue Dec 19 21:56:35 2017
+	Stacking Method: Median Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:37 2017
+	Last Modified: Tue Dec 19 21:56:37 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:38 2017
+	Last Modified: Tue Dec 19 21:56:38 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:38 2017
+	Last Modified: Tue Dec 19 21:56:38 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:39 2017
+	Last Modified: Tue Dec 19 21:56:39 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:39 2017
+	Last Modified: Tue Dec 19 21:56:39 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:40 2017
+	Last Modified: Tue Dec 19 21:56:40 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:40 2017
+	Last Modified: Tue Dec 19 21:56:40 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:41 2017
+	Last Modified: Tue Dec 19 21:56:41 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:42 2017
+	Last Modified: Tue Dec 19 21:56:42 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:42 2017
+	Last Modified: Tue Dec 19 21:56:42 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set3/MedianOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:43 2017
+	Last Modified: Tue Dec 19 21:56:47 2017
+	Stacking Method: Median Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:50 2017
+	Last Modified: Tue Dec 19 21:56:50 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:50 2017
+	Last Modified: Tue Dec 19 21:56:50 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:51 2017
+	Last Modified: Tue Dec 19 21:56:51 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:51 2017
+	Last Modified: Tue Dec 19 21:56:51 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:52 2017
+	Last Modified: Tue Dec 19 21:56:52 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:52 2017
+	Last Modified: Tue Dec 19 21:56:52 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:53 2017
+	Last Modified: Tue Dec 19 21:56:53 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:53 2017
+	Last Modified: Tue Dec 19 21:56:53 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:54 2017
+	Last Modified: Tue Dec 19 21:56:54 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:54 2017
+	Last Modified: Tue Dec 19 21:56:54 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set3/SigmaClippedMeanOutput2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:56:55 2017
+	Last Modified: Tue Dec 19 21:57:08 2017
+	Stacking Method: Sigma Clipped Mean
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:12 2017
+	Last Modified: Tue Dec 19 21:57:12 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:13 2017
+	Last Modified: Tue Dec 19 21:57:13 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:13 2017
+	Last Modified: Tue Dec 19 21:57:13 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:14 2017
+	Last Modified: Tue Dec 19 21:57:14 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:14 2017
+	Last Modified: Tue Dec 19 21:57:14 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:15 2017
+	Last Modified: Tue Dec 19 21:57:15 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:15 2017
+	Last Modified: Tue Dec 19 21:57:15 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:16 2017
+	Last Modified: Tue Dec 19 21:57:16 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:16 2017
+	Last Modified: Tue Dec 19 21:57:16 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set3/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:17 2017
+	Last Modified: Tue Dec 19 21:57:17 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set3/SigmaClippedMeanOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:17 2017
+	Last Modified: Tue Dec 19 21:57:23 2017
+	Stacking Method: Sigma Clipped Mean
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:31 2017
+	Last Modified: Tue Dec 19 21:57:31 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:32 2017
+	Last Modified: Tue Dec 19 21:57:32 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:32 2017
+	Last Modified: Tue Dec 19 21:57:32 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:33 2017
+	Last Modified: Tue Dec 19 21:57:33 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:33 2017
+	Last Modified: Tue Dec 19 21:57:33 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:34 2017
+	Last Modified: Tue Dec 19 21:57:34 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:34 2017
+	Last Modified: Tue Dec 19 21:57:34 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:35 2017
+	Last Modified: Tue Dec 19 21:57:35 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:35 2017
+	Last Modified: Tue Dec 19 21:57:35 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:36 2017
+	Last Modified: Tue Dec 19 21:57:36 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set4/MeanOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:36 2017
+	Last Modified: Tue Dec 19 21:57:38 2017
+	Stacking Method: Mean Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:40 2017
+	Last Modified: Tue Dec 19 21:57:40 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:41 2017
+	Last Modified: Tue Dec 19 21:57:41 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:41 2017
+	Last Modified: Tue Dec 19 21:57:41 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:42 2017
+	Last Modified: Tue Dec 19 21:57:42 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:42 2017
+	Last Modified: Tue Dec 19 21:57:42 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:43 2017
+	Last Modified: Tue Dec 19 21:57:43 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:43 2017
+	Last Modified: Tue Dec 19 21:57:43 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:44 2017
+	Last Modified: Tue Dec 19 21:57:44 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:44 2017
+	Last Modified: Tue Dec 19 21:57:44 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:45 2017
+	Last Modified: Tue Dec 19 21:57:45 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set4/MedianOutput2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:45 2017
+	Last Modified: Tue Dec 19 21:57:54 2017
+	Stacking Method: Median Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:57 2017
+	Last Modified: Tue Dec 19 21:57:57 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:57 2017
+	Last Modified: Tue Dec 19 21:57:57 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:58 2017
+	Last Modified: Tue Dec 19 21:57:58 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:58 2017
+	Last Modified: Tue Dec 19 21:57:58 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:59 2017
+	Last Modified: Tue Dec 19 21:57:59 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:57:59 2017
+	Last Modified: Tue Dec 19 21:57:59 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:00 2017
+	Last Modified: Tue Dec 19 21:58:00 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:00 2017
+	Last Modified: Tue Dec 19 21:58:00 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:01 2017
+	Last Modified: Tue Dec 19 21:58:01 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:01 2017
+	Last Modified: Tue Dec 19 21:58:01 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set4/MedianOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:02 2017
+	Last Modified: Tue Dec 19 21:58:07 2017
+	Stacking Method: Median Blend
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:09 2017
+	Last Modified: Tue Dec 19 21:58:09 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:10 2017
+	Last Modified: Tue Dec 19 21:58:10 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:10 2017
+	Last Modified: Tue Dec 19 21:58:10 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:11 2017
+	Last Modified: Tue Dec 19 21:58:11 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:11 2017
+	Last Modified: Tue Dec 19 21:58:11 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:12 2017
+	Last Modified: Tue Dec 19 21:58:12 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:12 2017
+	Last Modified: Tue Dec 19 21:58:12 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:13 2017
+	Last Modified: Tue Dec 19 21:58:13 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:13 2017
+	Last Modified: Tue Dec 19 21:58:13 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:14 2017
+	Last Modified: Tue Dec 19 21:58:14 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set4/SigmaClippedMeanOutput2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:14 2017
+	Last Modified: Tue Dec 19 21:58:26 2017
+	Stacking Method: Sigma Clipped Mean
+========================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_1.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:31 2017
+	Last Modified: Tue Dec 19 21:58:31 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_2.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:32 2017
+	Last Modified: Tue Dec 19 21:58:32 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_3.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:32 2017
+	Last Modified: Tue Dec 19 21:58:32 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_4.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:33 2017
+	Last Modified: Tue Dec 19 21:58:33 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_5.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:33 2017
+	Last Modified: Tue Dec 19 21:58:33 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_6.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:34 2017
+	Last Modified: Tue Dec 19 21:58:34 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_7.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:34 2017
+	Last Modified: Tue Dec 19 21:58:34 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_8.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:35 2017
+	Last Modified: Tue Dec 19 21:58:35 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_9.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:35 2017
+	Last Modified: Tue Dec 19 21:58:35 2017
+=================
+
+======Image======
+Source Image: Images/ImageStacker_set4/IMG_10.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:36 2017
+	Last Modified: Tue Dec 19 21:58:36 2017
+=================
+
+======Stacked Image======
+Source Image: Images/ImageStacker_set4/SigmaClippedMeanOutput.ppm
+Image Width: 4592
+Image Height: 3056
+Colour Depth: 24 bit
+Image Statistics: 
+	Image Size in memory: 40.1492 MB
+	Created: Tue Dec 19 21:58:36 2017
+	Last Modified: Tue Dec 19 21:58:42 2017
+	Stacking Method: Sigma Clipped Mean
+========================

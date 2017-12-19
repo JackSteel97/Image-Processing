@@ -116,7 +116,7 @@ void ImageStacker(const unsigned int &method, const unsigned int &imageSet) {
 	//switch on the stacking method
 	switch (method) {
 	case 1:
-		//mean blending (optimised)
+		//mean blending
 		cout << "\nMean Blending Images...\n";
 		fileName = "MeanOutput.ppm";
 		output = Stacker::MeanBlend(images);
@@ -325,6 +325,7 @@ void benchmarkScaler() {
 
 	string startTime(ctime(&benchStart));
 	logFile << "Starting Scaler Benchmark: " << startTime;
+	logFile << "Timings include read/write of images";
 	
 	//run all algorithms at 2x scale factor
 	logFile << "\nScale 2x:";
@@ -441,6 +442,7 @@ void benchmarkStacker() {
 
 	string startTime(ctime(&benchStart));
 	logFile << "Starting Stacking Benchmark: " << startTime;
+	logFile << "Timings include read/write of images";
 
 	//run all algorithms on image set 1
 	logFile << "\nImage Set 1:";
@@ -591,6 +593,29 @@ int showMainMenu() {
 	return 1;
 }
 
+/// <summary>
+/// Program must be run in the same directory as the Images folder
+/// 
+/// The Images folder should have the structure:
+/// Images:
+///		ImageStacker_set1:
+///			set 1 images...
+///		ImageStacker_set2:
+///			set 2 images...
+///		ImageStacker_set3:
+///			set 3 images...
+///		ImageStacker_set4:
+///			set 4 images...
+///		Zoom:
+///			zImg_1.ppm
+/// 
+/// For best results run from the provided CMP2090M Assignment Code.exe in: Dev\CMP2090M Assignment Code
+/// For best results when running from IDE run in Release x64
+/// 
+/// text file outputs will be written in the same directory as the program executable
+/// Image outputs will be written in the same directory as their source image(s)
+/// </summary>
+/// <returns>Exit code</returns>
 int main() {
 	//repeat until user chooses to quit
 	while (showMainMenu() != 0);
